@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day2/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day2/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day2/PasswordChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Day2/PasswordCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2/PasswordCheckerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Day2/Day2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day2/Day2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Day2/PasswordChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day2/PasswordChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Day2/PasswordCheckerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day2/PasswordCheckerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,22 +177,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606916106441" />
-    <state width="1877" height="219" key="GridCell.Tab.0.bottom" timestamp="1606918460306">
+    <state width="916" height="219" key="GridCell.Tab.0.bottom" timestamp="1606919077728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606918460306" />
-    <state width="1877" height="219" key="GridCell.Tab.0.center" timestamp="1606918460306">
+    <state width="916" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606919077728" />
+    <state width="916" height="219" key="GridCell.Tab.0.center" timestamp="1606919077728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606918460306" />
-    <state width="1877" height="219" key="GridCell.Tab.0.left" timestamp="1606918460306">
+    <state width="916" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606919077728" />
+    <state width="916" height="219" key="GridCell.Tab.0.left" timestamp="1606919077728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606918460306" />
-    <state width="1877" height="219" key="GridCell.Tab.0.right" timestamp="1606918460306">
+    <state width="916" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606919077728" />
+    <state width="916" height="219" key="GridCell.Tab.0.right" timestamp="1606919077728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606918460306" />
+    <state width="916" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606919077728" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1606821007539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

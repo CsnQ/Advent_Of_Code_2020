@@ -4,11 +4,6 @@ import junit.framework.TestCase;
 
 import java.util.ArrayList;
 import java.util.List;
-//1-3 a: abcde
-// pwdRequirements.put("minLetter", minLetter);
-//         pwdRequirements.put("maxLetter", maxLetter);
-//         pwdRequirements.put("letterToCheck", letterToCheck);
-//         pwdRequirements.put("pwdToCheck", pwdToCheck);
 
 public class PasswordCheckerTest extends TestCase {
     public void testPasswordCheckerObjectWithDoubleFigures() {
@@ -65,7 +60,7 @@ public class PasswordCheckerTest extends TestCase {
                 validCounter++;
             }
 
-            if (pwdData.get(i).isValidForPart2){
+            if (pwdData.get(i).isValidForPart2) {
                 validCounterpt2++;
             }
         }

@@ -40,7 +40,6 @@ public class PasswordChecker {
 
         int startPoint = this.minInstance - 1;
         int endPoint = this.maxInstance - 1;
-        //String substringToCheck = this.pwdToCheck.substring(startPoint,endPoint);
         char firstChar = this.pwdToCheck.charAt(startPoint);
         char secondChar = this.pwdToCheck.charAt(endPoint);
         if (firstChar != this.letterToCheck && secondChar != this.letterToCheck) {
