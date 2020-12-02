@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day1/Day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day1/Day1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day1/Day1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day1/Day1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2TestInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/PasswordChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day2/PasswordCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Day1/Day1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day1/Day1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day1/Day1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day1/Day1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,12 +51,17 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1l3Lj07joLT8tGwHaiqPRjReLk9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="project.structure.last.edited" value="Project" />
@@ -58,7 +76,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day1Test.testFindSumOfThreeWithInput">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="Advent_Of_Code_2020" />
@@ -72,65 +90,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day1Test.testFindSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day1.*" />
+          <option name="PATTERN" value="Day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day1" />
-      <option name="MAIN_CLASS_NAME" value="Day1.Day1Test" />
-      <option name="METHOD_NAME" value="testFindSum" />
+      <option name="PACKAGE_NAME" value="Day2" />
+      <option name="MAIN_CLASS_NAME" value="Day2.PasswordCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordCheckerTest.testPasswordCheckerObjectWithDoubleFigures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day2" />
+      <option name="MAIN_CLASS_NAME" value="Day2.PasswordCheckerTest" />
+      <option name="METHOD_NAME" value="testPasswordCheckerObjectWithDoubleFigures" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day1Test.testFindSumOfThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordCheckerTest.testPasswordCheckerObjectWithSingleFigures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day1.*" />
+          <option name="PATTERN" value="Day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day1" />
-      <option name="MAIN_CLASS_NAME" value="Day1.Day1Test" />
-      <option name="METHOD_NAME" value="testFindSumOfThree" />
+      <option name="PACKAGE_NAME" value="Day2" />
+      <option name="MAIN_CLASS_NAME" value="Day2.PasswordCheckerTest" />
+      <option name="METHOD_NAME" value="testPasswordCheckerObjectWithSingleFigures" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day1Test.testFindSumOfThreeWithInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordCheckerTest.testProcessText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day1.*" />
+          <option name="PATTERN" value="Day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day1" />
-      <option name="MAIN_CLASS_NAME" value="Day1.Day1Test" />
-      <option name="METHOD_NAME" value="testFindSumOfThreeWithInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day1Test.testFindSumWithInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day1" />
-      <option name="MAIN_CLASS_NAME" value="Day1.Day1Test" />
-      <option name="METHOD_NAME" value="testFindSumWithInput" />
+      <option name="PACKAGE_NAME" value="Day2" />
+      <option name="MAIN_CLASS_NAME" value="Day2.PasswordCheckerTest" />
+      <option name="METHOD_NAME" value="testProcessText" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day1Test.testFindSumOfThreeWithInput" />
-        <item itemvalue="JUnit.Day1Test.testFindSumOfThree" />
-        <item itemvalue="JUnit.Day1Test.testFindSumWithInput" />
-        <item itemvalue="JUnit.Day1Test.testFindSum" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PasswordCheckerTest" />
+        <item itemvalue="JUnit.PasswordCheckerTest.testPasswordCheckerObjectWithDoubleFigures" />
+        <item itemvalue="JUnit.PasswordCheckerTest.testPasswordCheckerObjectWithSingleFigures" />
+        <item itemvalue="JUnit.PasswordCheckerTest.testProcessText" />
       </list>
     </recent_temporary>
   </component>
@@ -157,27 +174,34 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1606822338397">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1606913665837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606822338397" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606822579371">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606913665837" />
+    <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606900955991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606822579371" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606822579371">
+    <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1606900955991" />
+    <state width="1877" height="219" key="GridCell.Tab.0.bottom" timestamp="1606915319620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606822579371" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606822579371">
+    <state width="1877" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606915319620" />
+    <state width="1877" height="219" key="GridCell.Tab.0.center" timestamp="1606915319620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606822579371" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606822579371">
+    <state width="1877" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606915319620" />
+    <state width="1877" height="219" key="GridCell.Tab.0.left" timestamp="1606915319619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606822579371" />
+    <state width="1877" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606915319619" />
+    <state width="1877" height="219" key="GridCell.Tab.0.right" timestamp="1606915319620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606915319620" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1606821007539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
