@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2TestInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/PasswordChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day2/PasswordCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day2/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day2/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day2/PasswordChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Day1/Day1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day1/Day1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Day1/Day1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day1/Day1Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day2/PasswordCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2/PasswordCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Day2/Day2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day2/Day2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Day2/PasswordChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day2/PasswordChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day2/PasswordCheckerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day2/PasswordCheckerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,22 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordCheckerTest.testPasswordCheckerObjectWithDoubleFigures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day2" />
-      <option name="MAIN_CLASS_NAME" value="Day2.PasswordCheckerTest" />
-      <option name="METHOD_NAME" value="testPasswordCheckerObjectWithDoubleFigures" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PasswordCheckerTest.testPasswordCheckerObjectWithSingleFigures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
@@ -137,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordCheckerTest.testProcessText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordCheckerTest.testPasswordCheckerObjectWithdifferentResultsForPart1AndPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
@@ -147,7 +124,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day2" />
       <option name="MAIN_CLASS_NAME" value="Day2.PasswordCheckerTest" />
-      <option name="METHOD_NAME" value="testProcessText" />
+      <option name="METHOD_NAME" value="testPasswordCheckerObjectWithdifferentResultsForPart1AndPart2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordCheckerTest.testWithListOfItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day2" />
+      <option name="MAIN_CLASS_NAME" value="Day2.PasswordCheckerTest" />
+      <option name="METHOD_NAME" value="testWithListOfItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.PasswordCheckerTest" />
-        <item itemvalue="JUnit.PasswordCheckerTest.testPasswordCheckerObjectWithDoubleFigures" />
+        <item itemvalue="JUnit.PasswordCheckerTest.testWithListOfItems" />
         <item itemvalue="JUnit.PasswordCheckerTest.testPasswordCheckerObjectWithSingleFigures" />
-        <item itemvalue="JUnit.PasswordCheckerTest.testProcessText" />
+        <item itemvalue="JUnit.PasswordCheckerTest.testPasswordCheckerObjectWithdifferentResultsForPart1AndPart2" />
+        <item itemvalue="JUnit.PasswordCheckerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,22 +179,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1606900955991" />
-    <state width="1877" height="219" key="GridCell.Tab.0.bottom" timestamp="1606915319620">
+    <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606916106441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606915319620" />
-    <state width="1877" height="219" key="GridCell.Tab.0.center" timestamp="1606915319620">
+    <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606916106441" />
+    <state width="1877" height="219" key="GridCell.Tab.0.bottom" timestamp="1606918460306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606915319620" />
-    <state width="1877" height="219" key="GridCell.Tab.0.left" timestamp="1606915319619">
+    <state width="1877" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606918460306" />
+    <state width="1877" height="219" key="GridCell.Tab.0.center" timestamp="1606918460306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606915319619" />
-    <state width="1877" height="219" key="GridCell.Tab.0.right" timestamp="1606915319620">
+    <state width="1877" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606918460306" />
+    <state width="1877" height="219" key="GridCell.Tab.0.left" timestamp="1606918460306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606915319620" />
+    <state width="1877" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606918460306" />
+    <state width="1877" height="219" key="GridCell.Tab.0.right" timestamp="1606918460306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606918460306" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1606821007539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

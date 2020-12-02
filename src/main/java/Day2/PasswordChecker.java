@@ -1,8 +1,6 @@
 package Day2;
 
 
-import java.util.List;
-
 public class PasswordChecker {
 
     String pwdToCheck;
@@ -12,7 +10,8 @@ public class PasswordChecker {
     int minInstance;
     int maxInstance;
     int instanceOfLetter;
-    boolean isValidPwd;
+    boolean isValidForPart1;
+    boolean isValidForPart2;
 
     public PasswordChecker(String pwdData) {
         this.splitText = pwdData.split(" ");
@@ -21,29 +20,51 @@ public class PasswordChecker {
         this.letterToCheck = splitText[1].charAt(0);
         this.minInstance = Integer.parseInt(integerSplit[0]);
         this.maxInstance = Integer.parseInt(integerSplit[1]);
-        this.instanceOfLetter = countLetters();
-        this.isValidPwd = checkpwd();
+        this.instanceOfLetter = countLetters(this.pwdToCheck);
+        this.isValidForPart1 = checkpwd();
+        this.isValidForPart2 = checkpwdForNewRequirements();
     }
 
-    private int countLetters() {
+    private int countLetters(String pwdString) {
         int letterCount = 0;
-        for (int i = 0; i < this.pwdToCheck.length() ; i++) {
-            if(pwdToCheck.charAt(i)==this.letterToCheck){
-                letterCount ++;
+        for (int i = 0; i < pwdString.length(); i++) {
+            if (pwdString.charAt(i) == this.letterToCheck) {
+                letterCount++;
             }
 
         }
         return letterCount;
     }
 
-    public boolean checkpwd (){
+    public boolean checkpwdForNewRequirements() {
 
-        if(this.instanceOfLetter == 0){
+        int startPoint = this.minInstance - 1;
+        int endPoint = this.maxInstance - 1;
+        //String substringToCheck = this.pwdToCheck.substring(startPoint,endPoint);
+        char firstChar = this.pwdToCheck.charAt(startPoint);
+        char secondChar = this.pwdToCheck.charAt(endPoint);
+        if (firstChar != this.letterToCheck && secondChar != this.letterToCheck) {
             return false;
-        }else{
-            if (this.instanceOfLetter>=this.minInstance && this.instanceOfLetter<=maxInstance){
+        } else if (firstChar == this.letterToCheck && secondChar == this.letterToCheck) {
+            return false;
+        } else if (firstChar == this.letterToCheck && secondChar != this.letterToCheck) {
+            return true;
+        } else if (firstChar != this.letterToCheck && secondChar == this.letterToCheck) {
+            return true;
+        }else {
+            return false;
+        }
+
+    }
+
+    public boolean checkpwd() {
+
+        if (this.instanceOfLetter == 0) {
+            return false;
+        } else {
+            if (this.instanceOfLetter >= this.minInstance && this.instanceOfLetter <= maxInstance) {
                 return true;
-            }else{
+            } else {
                 return false;
             }
         }
@@ -66,7 +87,7 @@ public class PasswordChecker {
         return maxInstance;
     }
 
-    public boolean isValidPwd() {
-        return isValidPwd;
+    public boolean isValidForPart1() {
+        return isValidForPart1;
     }
 }
