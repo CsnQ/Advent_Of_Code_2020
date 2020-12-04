@@ -1,5 +1,6 @@
 package Day2;
 
+import Utilities.ReadFile;
 import junit.framework.TestCase;
 
 import java.util.ArrayList;

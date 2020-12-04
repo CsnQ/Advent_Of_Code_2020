@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 import java.util.List;
 
-import static Day2.ReadFile.readLinesFromFile;
+import static Utilities.ReadFile.readLinesFromFile;
 
 public class ReadFileTest extends TestCase{
 
