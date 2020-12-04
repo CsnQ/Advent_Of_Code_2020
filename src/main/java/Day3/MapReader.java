@@ -11,7 +11,6 @@ public class MapReader {
     char tree = '#';
     char ground = '.';
 
-
     public MapReader(List<String> mapRows) {
         this.mapRows = mapRows;
     }
@@ -28,11 +27,12 @@ public class MapReader {
         int treeCount = 0;
         int latposition = latMove;
         int width = mapRows.get(0).length();
+        System.out.println("size of list: "+ mapRows.size());
 
         for (int i = startposition + vertMove; i < mapRows.size(); i = i + vertMove) {
-
+//            System.out.println("current row: "+ i);
             char currentChar = mapRows.get(i).charAt(latposition);
-
+//            System.out.println("current latPosition: "+ latposition);
             if (currentChar == tree) {
                 treeCount++;
             }
@@ -45,6 +45,7 @@ public class MapReader {
 
         }
 
+        System.out.println("number of trees: "+treeCount);
         return treeCount;
     }
 }

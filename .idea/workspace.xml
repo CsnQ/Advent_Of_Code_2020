@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/Day3Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/Day3TestInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/MapReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day3/MapReaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day2/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day2/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day2/PasswordCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2/PasswordCheckerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Day2/Day2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day2/Day2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Day2/PasswordChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day2/PasswordChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Day2/ReadFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Day2/PasswordCheckerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day2/PasswordCheckerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Day2/ReadFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day2/ReadFileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day3/MapReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day3/MapReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day3/MapReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day3/MapReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Day3/MapReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day3/MapReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day3/MapReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day3/MapReaderTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +70,8 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MapReaderTest.testJourneyDataWithRealInput">
-    <configuration name="MapReaderTest.testJourneyData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MapReaderTest.testJourneyDataWithRealDataForPart2">
+    <configuration name="MapReaderTest.testJourneyDataWithRealDataForPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +81,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day3" />
       <option name="MAIN_CLASS_NAME" value="Day3.MapReaderTest" />
-      <option name="METHOD_NAME" value="testJourneyData" />
+      <option name="METHOD_NAME" value="testJourneyDataWithRealDataForPart2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,6 +98,22 @@
       <option name="PACKAGE_NAME" value="Day3" />
       <option name="MAIN_CLASS_NAME" value="Day3.MapReaderTest" />
       <option name="METHOD_NAME" value="testJourneyDataWithRealInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapReaderTest.testJourneyDataWithTestDataForPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day3" />
+      <option name="MAIN_CLASS_NAME" value="Day3.MapReaderTest" />
+      <option name="METHOD_NAME" value="testJourneyDataWithTestDataForPart2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,29 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapReaderTest.testObjectCreationForMapReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day3" />
-      <option name="MAIN_CLASS_NAME" value="Day3.MapReaderTest" />
-      <option name="METHOD_NAME" value="testObjectCreationForMapReader" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapReaderTest.testJourneyDataWithRealDataForPart2" />
+        <item itemvalue="JUnit.MapReaderTest.testJourneyDataWithTestDataForPart2" />
         <item itemvalue="JUnit.MapReaderTest.testJourneyDataWithRealInput" />
         <item itemvalue="JUnit.MapReaderTest.testJourneyDataWithTestInput" />
         <item itemvalue="JUnit.MapReaderTest.testJourneyDataWithTestInputv2" />
-        <item itemvalue="JUnit.MapReaderTest.testJourneyData" />
-        <item itemvalue="JUnit.MapReaderTest.testObjectCreationForMapReader" />
       </list>
     </recent_temporary>
   </component>
@@ -204,25 +195,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606916106441" />
-    <state width="1493" height="267" key="GridCell.Tab.0.bottom" timestamp="1607102565285">
+    <state width="1493" height="359" key="GridCell.Tab.0.bottom" timestamp="1607105690426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607102565285" />
+    <state width="1493" height="359" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607105690426" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="267" key="GridCell.Tab.0.center" timestamp="1607102565284">
+    <state width="1493" height="359" key="GridCell.Tab.0.center" timestamp="1607105690426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607102565284" />
+    <state width="1493" height="359" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607105690426" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="267" key="GridCell.Tab.0.left" timestamp="1607102565284">
+    <state width="1493" height="359" key="GridCell.Tab.0.left" timestamp="1607105690426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607102565284" />
+    <state width="1493" height="359" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607105690426" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="267" key="GridCell.Tab.0.right" timestamp="1607102565284">
+    <state width="1493" height="359" key="GridCell.Tab.0.right" timestamp="1607105690426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607102565284" />
+    <state width="1493" height="359" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607105690426" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1606821007539">
       <screen x="0" y="0" width="1920" height="1040" />
