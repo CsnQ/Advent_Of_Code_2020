@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/Day4Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/Day4TestInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/PassportProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day4/PassportProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/ReadFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Day2/ReadFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day2/ReadFileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Day3/MapReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day3/MapReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day4/PassportProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day4/PassportProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day4/PassportProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day4/PassportProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Day4/PassportProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day4/PassportProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Day4/PassportProcessorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day4/PassportProcessorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,23 +71,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PassportProcessorTest.testIfPassportValid">
-    <configuration name="MapReaderTest.testJourneyDataWithRealDataForPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day3" />
-      <option name="MAIN_CLASS_NAME" value="Day3.MapReaderTest" />
-      <option name="METHOD_NAME" value="testJourneyDataWithRealDataForPart2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PassportProcessorTest.testIfPassportValidwithRealInput">
     <configuration name="PassportProcessorTest.testIfPassportValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
@@ -109,17 +88,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFileTest.testPassportFileReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PassportProcessorTest.testIfPassportValidwithMultiplePassport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day2.*" />
+          <option name="PATTERN" value="Day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day2" />
-      <option name="MAIN_CLASS_NAME" value="Day2.ReadFileTest" />
-      <option name="METHOD_NAME" value="testPassportFileReader" />
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessorTest" />
+      <option name="METHOD_NAME" value="testIfPassportValidwithMultiplePassport" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassportProcessorTest.testIfPassportValidwithRealInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessorTest" />
+      <option name="METHOD_NAME" value="testIfPassportValidwithRealInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassportProcessorTest.testIfPassportValidwithRealInput" />
+        <item itemvalue="JUnit.PassportProcessorTest.testIfPassportValidwithMultiplePassport" />
         <item itemvalue="JUnit.PassportProcessorTest.testIfPassportValid" />
         <item itemvalue="JUnit.ReadFileTest.testPassportFileReaderWithTestInput" />
         <item itemvalue="JUnit.ReadFileTest.testPassportFileReaderWithRealInput" />
-        <item itemvalue="JUnit.ReadFileTest.testPassportFileReader" />
-        <item itemvalue="JUnit.MapReaderTest.testJourneyDataWithRealDataForPart2" />
       </list>
     </recent_temporary>
   </component>
@@ -194,10 +189,10 @@
     </state>
     <state x="566" y="254" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1607109240963" />
     <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606989274831" />
-    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1607110702363">
+    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1607192087806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607110702363" />
+    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607192087806" />
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606990562005" />
     <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606900955991">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -207,34 +202,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606916106441" />
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom" timestamp="1607111804239">
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1607192914009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607111804239" />
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607192914009" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="184" key="GridCell.Tab.0.center" timestamp="1607111804239">
+    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1607192914009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607111804239" />
+    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607192914009" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="184" key="GridCell.Tab.0.left" timestamp="1607111804239">
+    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1607192914009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607111804239" />
+    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607192914009" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="184" key="GridCell.Tab.0.right" timestamp="1607111804239">
+    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1607192914009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607111804239" />
+    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607192914009" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1606821007539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606821007539" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607189839070">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1607189839070" />
     <state x="585" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607111428219">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="585" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1607111428219" />
     <state x="731" y="293" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606990511783" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1607191946384">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1607191946384" />
   </component>
 </project>

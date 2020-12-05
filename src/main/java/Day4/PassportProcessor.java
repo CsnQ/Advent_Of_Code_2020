@@ -1,46 +1,71 @@
 package Day4;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import com.sun.xml.internal.ws.util.StringUtils;
 
-
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class PassportProcessor {
-    HashMap<String, String> fields = new HashMap<>();
-    List<String> optionalFields;
+    String expectFieldsString = "byr,iyr,eyr,hgt,hcl,ecl,pid,cid";
+    String[] passports;
 
-    public PassportProcessor(HashMap<String, String> fields, List<String> optionalFields) {
-        this.fields = fields;
-        this.fields.put("Birth year", "byr");
-        this.fields.put("Issue Year", "iyr");
-        this.fields.put("Expiration Year", "eyr");
-        this.fields.put("Height", "hgt");
-        this.fields.put("Hair Color", "hcl");
-        this.fields.put("Eye Color", "ecl");
-        this.fields.put("Passport ID", "pid");
-        this.fields.put("Country ID", "cid");
-
-        this.optionalFields = optionalFields;
-        optionalFields.add("cid");
-
+    public String[] getPassports() {
+        return passports;
     }
 
-    public static boolean isValidPassport(String passport) {
+    public void setPassports(String[] passports) {
+        this.passports = passports;
+    }
+
+    public List<String> getFieldsFromPassport(String passport) {
+        List<String> fields = new ArrayList<>();
         String text = passport.replace("\n", " ").replace("\r", "");
         String[] passportInfo = text.split(" ");
         for (int i = 0; i < passportInfo.length; i++) {
-            System.out.println(passportInfo[i]);
-            System.out.println(passportInfo[i].substring(0, passportInfo[i].indexOf(":")));
+            String field = passportInfo[i].substring(0, passportInfo[i].indexOf(":"));
+            fields.add(field);
         }
-        System.out.println(passportInfo.length);
 
-
-        return true;
+        return fields;
     }
 
-// remove line breaks:
-//        String text = result[0].replace("\n", " ").replace("\r", "");
+    public boolean checkIfValid(List<String> passportFields) {
+        int validCounter = 0;
+        boolean cidMissing = true;
+        for (int i = 0; i < passportFields.size(); i++) {
+            if (passportFields.get(i).equals("cid")) {
+
+                cidMissing = false;
+                System.out.println(cidMissing);
+            }
+            if (expectFieldsString.contains(passportFields.get(i))) {
+                validCounter++;
+            }
+        }
+
+        if (validCounter == 8) {
+            return true;
+        } else if (validCounter == 7 && cidMissing) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public int processPassports(){
+        System.out.println("number of Passports: "+ this.passports.length);
+        int validPassports = 0;
+
+        for (int i = 0; i < this.passports.length; i++) {
+            List<String> fields = getFieldsFromPassport(this.passports[i]);
+            if(checkIfValid(fields)){
+                validPassports++;
+            }else{
+                System.out.println("Passport Num: " + i + " is not valid");
+                System.out.println("details are: " + this.passports[i]);
+            }
+        }
+
+        return validPassports;
+    }
+
 
 }
