@@ -83,8 +83,8 @@
   <component name="RunManager" selected="JUnit.PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData">
     <configuration name="PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PassportProcessor2Test" />
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
       <option name="METHOD_NAME" value="NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -93,8 +93,8 @@
     </configuration>
     <configuration name="PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PassportProcessor2Test" />
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
       <option name="METHOD_NAME" value="NewPassportProcesserProvidesSameNumberAsOldProcesserForTestData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -103,8 +103,8 @@
     </configuration>
     <configuration name="PassportProcessor2Test.passportHasAllRequiredData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PassportProcessor2Test" />
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
       <option name="METHOD_NAME" value="passportHasAllRequiredData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -113,8 +113,8 @@
     </configuration>
     <configuration name="PassportProcessor2Test.passportHasAllRequiredDataForinvalidPassport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PassportProcessor2Test" />
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
       <option name="METHOD_NAME" value="passportHasAllRequiredDataForinvalidPassport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">

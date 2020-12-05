@@ -1,3 +1,5 @@
+package Day4;
+
 import Day4.Passport;
 
 import java.util.HashMap;

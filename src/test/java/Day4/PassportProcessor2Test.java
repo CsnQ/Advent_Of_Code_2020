@@ -1,5 +1,8 @@
+package Day4;
+
 import Day4.Passport;
 import Utilities.ReadFile;
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -18,7 +21,7 @@ public class PassportProcessor2Test {
         HashMap<String, String> data = p.getAllPassportData();
 
         PassportProcessor2 pp2 = new PassportProcessor2(data);
-        assertEquals(true, pp2.passportHasAllRequiredDataForPart1());
+        Assert.assertEquals(true, pp2.passportHasAllRequiredDataForPart1());
     }
 
     @Test
@@ -30,7 +33,7 @@ public class PassportProcessor2Test {
         HashMap<String, String> data = p.getAllPassportData();
 
         PassportProcessor2 pp2 = new PassportProcessor2(data);
-        assertEquals(false, pp2.passportHasAllRequiredDataForPart1());
+        Assert.assertEquals(false, pp2.passportHasAllRequiredDataForPart1());
     }
 
     @Test
