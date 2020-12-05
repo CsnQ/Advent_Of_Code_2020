@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/Day4TestInput2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PassportProcessor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day4/PassportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PassportProcessor2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day4/PassportProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day4/PassportProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day4/PassportProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day4/PassportProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Day4/PassportProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day4/PassportProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Day4/PassportProcessorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day4/PassportProcessorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,49 +57,65 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Day4" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="Day4" />
       <recent name="Day3" />
       <recent name="Day1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Day4" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day4" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.PassportProcessorTest.testIfPassportValidwithRealInput">
-    <configuration name="PassportProcessorTest.testIfPassportValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData">
+    <configuration name="PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessorTest" />
-      <option name="METHOD_NAME" value="testIfPassportValid" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PassportProcessor2Test" />
+      <option name="METHOD_NAME" value="NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassportProcessorTest.testIfPassportValidwithMultiplePassport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessorTest" />
-      <option name="METHOD_NAME" value="testIfPassportValidwithMultiplePassport" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PassportProcessor2Test" />
+      <option name="METHOD_NAME" value="NewPassportProcesserProvidesSameNumberAsOldProcesserForTestData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassportProcessor2Test.passportHasAllRequiredData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PassportProcessor2Test" />
+      <option name="METHOD_NAME" value="passportHasAllRequiredData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassportProcessor2Test.passportHasAllRequiredDataForinvalidPassport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PassportProcessor2Test" />
+      <option name="METHOD_NAME" value="passportHasAllRequiredDataForinvalidPassport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,45 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFileTest.testPassportFileReaderWithRealInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day2" />
-      <option name="MAIN_CLASS_NAME" value="Day2.ReadFileTest" />
-      <option name="METHOD_NAME" value="testPassportFileReaderWithRealInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadFileTest.testPassportFileReaderWithTestInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day2" />
-      <option name="MAIN_CLASS_NAME" value="Day2.ReadFileTest" />
-      <option name="METHOD_NAME" value="testPassportFileReaderWithTestInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData" />
         <item itemvalue="JUnit.PassportProcessorTest.testIfPassportValidwithRealInput" />
-        <item itemvalue="JUnit.PassportProcessorTest.testIfPassportValidwithMultiplePassport" />
-        <item itemvalue="JUnit.PassportProcessorTest.testIfPassportValid" />
-        <item itemvalue="JUnit.ReadFileTest.testPassportFileReaderWithTestInput" />
-        <item itemvalue="JUnit.ReadFileTest.testPassportFileReaderWithRealInput" />
+        <item itemvalue="JUnit.PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForTestData" />
+        <item itemvalue="JUnit.PassportProcessor2Test.passportHasAllRequiredDataForinvalidPassport" />
+        <item itemvalue="JUnit.PassportProcessor2Test.passportHasAllRequiredData" />
       </list>
     </recent_temporary>
   </component>
@@ -189,38 +174,39 @@
     </state>
     <state x="566" y="254" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1607109240963" />
     <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606989274831" />
-    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1607192087806">
+    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1607196434763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607192087806" />
+    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607196434763" />
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606990562005" />
-    <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606900955991">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="594" y="307" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607193351069">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="594" y="307" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1607193351069" />
     <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1606900955991" />
     <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606916106441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606916106441" />
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1607192914009">
+    <state width="1493" height="338" key="GridCell.Tab.0.bottom" timestamp="1607198488816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607192914009" />
+    <state width="1493" height="338" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607198488816" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1607192914009">
+    <state width="1493" height="338" key="GridCell.Tab.0.center" timestamp="1607198488816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607192914009" />
+    <state width="1493" height="338" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607198488816" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1607192914009">
+    <state width="1493" height="338" key="GridCell.Tab.0.left" timestamp="1607198488815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607192914009" />
+    <state width="1493" height="338" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607198488815" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1607192914009">
+    <state width="1493" height="338" key="GridCell.Tab.0.right" timestamp="1607198488816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607192914009" />
+    <state width="1493" height="338" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607198488816" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1606821007539">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -230,14 +216,28 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1607189839070" />
-    <state x="585" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607111428219">
+    <state x="585" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607196918111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="585" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1607111428219" />
+    <state x="585" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1607196918111" />
     <state x="731" y="293" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606990511783" />
+    <state x="315" y="148" width="906" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607197922021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="315" y="148" width="906" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1607197922021" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1607191946384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1607191946384" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
