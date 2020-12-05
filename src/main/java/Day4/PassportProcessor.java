@@ -32,9 +32,7 @@ public class PassportProcessor {
         boolean cidMissing = true;
         for (int i = 0; i < passportFields.size(); i++) {
             if (passportFields.get(i).equals("cid")) {
-
                 cidMissing = false;
-                System.out.println(cidMissing);
             }
             if (expectFieldsString.contains(passportFields.get(i))) {
                 validCounter++;
@@ -58,9 +56,6 @@ public class PassportProcessor {
             List<String> fields = getFieldsFromPassport(this.passports[i]);
             if(checkIfValid(fields)){
                 validPassports++;
-            }else{
-                System.out.println("Passport Num: " + i + " is not valid");
-                System.out.println("details are: " + this.passports[i]);
             }
         }
 
