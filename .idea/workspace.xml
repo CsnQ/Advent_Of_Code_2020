@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/Day4TestInput2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/Passport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PassportProcessor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day4/PassportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PassportProcessor2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day4/PassportProcessor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day4/PassportProcessor2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day4/PassportProcessor2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day4/PassportProcessor2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Day4/PassportProcessor2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day4/PassportProcessor2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,48 +78,8 @@
       <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData">
-    <configuration name="PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
-      <option name="METHOD_NAME" value="NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
-      <option name="METHOD_NAME" value="NewPassportProcesserProvidesSameNumberAsOldProcesserForTestData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PassportProcessor2Test.passportHasAllRequiredData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
-      <option name="METHOD_NAME" value="passportHasAllRequiredData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PassportProcessor2Test.passportHasAllRequiredDataForinvalidPassport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
-      <option name="METHOD_NAME" value="passportHasAllRequiredDataForinvalidPassport" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PassportProcessorTest.testIfPassportValidwithRealInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PassportProcessor2Test">
+    <configuration name="PassportProcessor2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +88,71 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessorTest" />
-      <option name="METHOD_NAME" value="testIfPassportValidwithRealInput" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassportProcessor2Test.checkTestInputForDay2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
+      <option name="METHOD_NAME" value="checkTestInputForDay2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassportProcessor2Test.passportValidatesHairColourFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
+      <option name="METHOD_NAME" value="passportValidatesHairColourFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassportProcessor2Test.passportValidatesHairColourTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
+      <option name="METHOD_NAME" value="passportValidatesHairColourTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassportProcessor2Test.passportValidatesPassportforDay2Requirements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
+      <option name="METHOD_NAME" value="passportValidatesPassportforDay2Requirements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForRealData" />
-        <item itemvalue="JUnit.PassportProcessorTest.testIfPassportValidwithRealInput" />
-        <item itemvalue="JUnit.PassportProcessor2Test.NewPassportProcesserProvidesSameNumberAsOldProcesserForTestData" />
-        <item itemvalue="JUnit.PassportProcessor2Test.passportHasAllRequiredDataForinvalidPassport" />
-        <item itemvalue="JUnit.PassportProcessor2Test.passportHasAllRequiredData" />
+        <item itemvalue="JUnit.PassportProcessor2Test" />
+        <item itemvalue="JUnit.PassportProcessor2Test.checkTestInputForDay2" />
+        <item itemvalue="JUnit.PassportProcessor2Test.passportValidatesPassportforDay2Requirements" />
+        <item itemvalue="JUnit.PassportProcessor2Test.passportValidatesHairColourTrue" />
+        <item itemvalue="JUnit.PassportProcessor2Test.passportValidatesHairColourFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -165,10 +186,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607109035159">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607278790265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1607109035159" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1607278790265" />
     <state x="566" y="254" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607109240963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -179,35 +200,35 @@
     </state>
     <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607196434763" />
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606990562005" />
-    <state x="594" y="307" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607193351069">
+    <state x="594" y="307" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607199111005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="594" y="307" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1607193351069" />
+    <state x="594" y="307" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1607199111005" />
     <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1606900955991" />
     <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606916106441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606916106441" />
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom" timestamp="1607198488816">
+    <state width="1493" height="318" key="GridCell.Tab.0.bottom" timestamp="1607377020104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607198488816" />
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="338" key="GridCell.Tab.0.center" timestamp="1607198488816">
+    <state width="1493" height="318" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607377020104" />
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607370144590" />
+    <state width="1493" height="318" key="GridCell.Tab.0.center" timestamp="1607377020104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607198488816" />
-    <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="338" key="GridCell.Tab.0.left" timestamp="1607198488815">
+    <state width="1493" height="318" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607377020104" />
+    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607370144590" />
+    <state width="1493" height="318" key="GridCell.Tab.0.left" timestamp="1607377020104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607198488815" />
-    <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
-    <state width="1493" height="338" key="GridCell.Tab.0.right" timestamp="1607198488816">
+    <state width="1493" height="318" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607377020104" />
+    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607370144590" />
+    <state width="1493" height="318" key="GridCell.Tab.0.right" timestamp="1607377020104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607198488816" />
-    <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607004285184" />
+    <state width="1493" height="318" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607377020104" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607370144590" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1606821007539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
