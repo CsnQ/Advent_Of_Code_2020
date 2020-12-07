@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 public class SeatFinder {
     //128 seats
     //10 characters
-    int[] frontRowRange = new int[]{0, 63};
-    int[] backRowRange = new int[]{64, 127};
+    int numOfRows = 128;
+    int numOfSeats = 8;
     String input;
     String rowData;
     String seatData;
