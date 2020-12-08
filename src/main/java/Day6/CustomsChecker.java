@@ -27,7 +27,7 @@ public class CustomsChecker {
         return customsAnswers.replace("\r\n", "");
     }
 
-    public String[] getDataGroups(String customsAnswers){
+    public String[] getDataGroups(String customsAnswers) {
         String[] result = customsAnswers.split("\n");
         return result;
     }
@@ -39,7 +39,8 @@ public class CustomsChecker {
         }
         return answers.size();
     }
-    public String buildStringFromGroup (List<String> dataGroup){
+
+    public String buildStringFromGroup(List<String> dataGroup) {
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < dataGroup.size(); i++) {
             sb.append(dataGroup.get(i));
@@ -50,42 +51,42 @@ public class CustomsChecker {
 
     }
 
-    public HashMap<Character,Integer> getLetterFrequency (String datagroup){
-        HashMap<Character,Integer> frequencyMap = new HashMap<>();
+    public HashMap<Character, Integer> getLetterFrequency(String datagroup) {
+        HashMap<Character, Integer> frequencyMap = new HashMap<>();
         Set answers = new HashSet();
         for (int i = 0; i < datagroup.length(); i++) {
             answers.add(datagroup.charAt(i));
         }
 
         Iterator<Character> it = answers.iterator();
-        while(it.hasNext()){
-           frequencyMap.put(it.next(),0);
+        while (it.hasNext()) {
+            frequencyMap.put(it.next(), 0);
         }
 
         for (Character key : frequencyMap.keySet()) {
             for (int i = 0; i < datagroup.length(); i++) {
-                if (key==datagroup.charAt(i)){
-                    frequencyMap.put(key,frequencyMap.get(key)+1);
+                if (key == datagroup.charAt(i)) {
+                    frequencyMap.put(key, frequencyMap.get(key) + 1);
                 }
             }
         }
 
-            return frequencyMap;
+        return frequencyMap;
     }
 
-    public int getPart2Answer(){
+    public int getPart2Answer() {
         int counter = 0;
         List<List> groupedData = getGroupedData();
         for (int i = 0; i < groupedData.size(); i++) {
-            if (groupedData.get(i).size()==1){
+            if (groupedData.get(i).size() == 1) {
                 String data = (String) groupedData.get(i).get(0);
-                counter=counter+data.length();
-            }else {
+                counter = counter + data.length();
+            } else {
                 int lengthOfArray = groupedData.get(i).size();
                 String answerString = buildStringFromGroup(groupedData.get(i));
-                HashMap<Character,Integer> frequencies =getLetterFrequency(answerString);
+                HashMap<Character, Integer> frequencies = getLetterFrequency(answerString);
                 for (Integer value : frequencies.values()) {
-                    if (value==lengthOfArray){
+                    if (value == lengthOfArray) {
                         counter++;
                     }
                 }
