@@ -32,4 +32,15 @@ public class ReadFileTest extends TestCase{
         assertEquals(290,result.length);
         assertTrue(result[289].contains("iyr:2011 hcl:#866857 hgt:74in"));
     }
+
+    public void testPassportFileReaderWithDay6Data() throws IOException {
+        String filepath = "src/main/java/Day6/Day6TestInput.txt";
+        String[] result = getCustomsInfoFromFile(filepath);
+        System.out.println(result[0]);
+        System.out.println(result[1]);
+        System.out.println(result[2]);
+        System.out.println(result[3]);
+        System.out.println(result[4]);
+
+    }
 }

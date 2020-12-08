@@ -42,4 +42,18 @@ public class ReadFile {
 
         return paragraphs;
     }
+
+    public static String[] getCustomsInfoFromFile(String filePath) throws IOException {
+        File file = new File(filePath);
+        FileInputStream fileStream = new FileInputStream(file);
+        byte[] byteArray = new byte[(int)file.length()];
+        fileStream.read(byteArray);
+        String data = new String(byteArray);
+
+       // String[] paragraphs = data.toString().split("(?m)^\\s*$");
+        String[] paragraphs = data.toString().split("\r\n\r\n" );
+
+
+        return paragraphs;
+    }
 }
