@@ -1,6 +1,7 @@
 package Day5;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class SeatFinder {
@@ -17,6 +18,7 @@ public class SeatFinder {
     List<Integer> seatInput;
     int myRow;
     int mySeat;
+    HashMap<String, Integer> seatInfo;
 
 
     public SeatFinder(String input) {
@@ -29,6 +31,14 @@ public class SeatFinder {
         this.allSeats = populateAllSeatsOrRows(numOfSeats);
         this.myRow = getMyRowOrSeat(this.rowInput,this.allRows);
         this.mySeat = getMyRowOrSeat(this.seatInput,this.allSeats);
+        this.seatInfo = new HashMap<>();
+        this.seatInfo.put("row", getMyRow());
+        this.seatInfo.put("column", getMySeat());
+        this.seatInfo.put("seat number", getMyRow()*8 + getMySeat());
+    }
+
+    public HashMap<String, Integer> getSeatInfo() {
+        return seatInfo;
     }
 
     public List<Integer> transformData(String data, char firstLetter, char secondLetter) {
@@ -53,15 +63,6 @@ public class SeatFinder {
         return data;
     }
 
-    //FBFBBFFRLR
-//    Start by considering the whole range, rows 0 through 127.
-//    F means to take the lower half, keeping rows 0 through 63.
-//    B means to take the upper half, keeping rows 32 through 63.
-//    F means to take the lower half, keeping rows 32 through 47.
-//    B means to take the upper half, keeping rows 40 through 47.
-//    B keeps rows 44 through 47.
-//    F keeps rows 44 through 45.
-//    The final F keeps the lower of the two, row 44.
     public int getMyRowOrSeat(List<Integer> convertedInstructions,List <Integer> rowOrSeatData) {
         List<Integer> reducedList;
         List<Integer> rows = rowOrSeatData;
@@ -92,14 +93,6 @@ public class SeatFinder {
         return seatData;
     }
 
-    public List<Integer> getRowInput() {
-        return rowInput;
-    }
-
-    public List<Integer> getSeatInput() {
-        return seatInput;
-    }
-
     public List<Integer> getAllRows() {
         return allRows;
     }
@@ -114,6 +107,10 @@ public class SeatFinder {
 
     public int getMySeat() {
         return mySeat;
+    }
+
+    public int getSeatNumberFromMap(){
+        return this.seatInfo.get("seat number");
     }
 
     @Override

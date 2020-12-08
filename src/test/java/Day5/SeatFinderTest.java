@@ -5,6 +5,7 @@ import junit.framework.TestCase;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -66,5 +67,41 @@ public class SeatFinderTest extends TestCase {
         System.out.println(maxSeatId);
 
     }
+
+    public void testSeatFinderHashMap() {
+        String data = "FBFBBFFRLR";
+       SeatFinder sf = new SeatFinder(data);
+        HashMap<String, Integer> answers = sf.getSeatInfo();
+        assertEquals(44, ((int) answers.get("row")));
+        assertEquals(5, ((int) answers.get("column")));
+        assertEquals(357, ((int) answers.get("seat number")));
+
+    }
+
+
+    public void testSeatFinderHashMapListForPart2Answer() {
+        List<String> data = ReadFile.readLinesFromFile("src/main/java/Day5/Day5Input.txt");
+        List<Integer> answers = new ArrayList<>();
+        for (int i = 0; i < data.size(); i++) {
+            SeatFinder sf = new SeatFinder(data.get(i));
+            answers.add(sf.getSeatNumberFromMap());
+        }
+        int maxSeatId = Collections.max(answers);
+        Collections.sort(answers);
+
+        for (int i = 0; i < answers.size()-1; i++) {
+            //System.out.println(answers.get(i));
+            if (answers.get(i+1)- answers.get(i)!=1){
+                System.out.println("*******************");
+                System.out.println(answers.get(i));
+                System.out.println(answers.get(i+1));
+                System.out.println("My Seat Number is: " + (answers.get(i)+1));
+                System.out.println("*******************");
+            }
+
+        }
+        System.out.println(answers);
+    }
+
 
 }
