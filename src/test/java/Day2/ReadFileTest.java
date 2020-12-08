@@ -36,11 +36,6 @@ public class ReadFileTest extends TestCase{
     public void testPassportFileReaderWithDay6Data() throws IOException {
         String filepath = "src/main/java/Day6/Day6TestInput.txt";
         String[] result = getCustomsInfoFromFile(filepath);
-        System.out.println(result[0]);
-        System.out.println(result[1]);
-        System.out.println(result[2]);
-        System.out.println(result[3]);
-        System.out.println(result[4]);
 
     }
 }
