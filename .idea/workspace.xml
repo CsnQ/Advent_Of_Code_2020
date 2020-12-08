@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day5/Day5TestInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day5/SeatFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day5/SeatFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day5/Day5Input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Day4/PassportProcessor2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day4/PassportProcessor2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day5/Day5TestInput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day5/Day5TestInput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day5/SeatFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day5/SeatFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day5/SeatFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day5/SeatFinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,49 +80,50 @@
       <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SeatFinderTest.testSeatFinderObjectSplitsString">
-    <configuration name="PassportProcessor2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SeatFinderTest.testSeatFinderGetAnswerForRealData">
+    <configuration name="SeatFinderTest.testSeatFinderFindMyRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day4.*" />
+          <option name="PATTERN" value="Day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PassportProcessor2Test.checkTestInputForDay2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
-      <option name="METHOD_NAME" value="checkTestInputForDay2" />
+      <option name="PACKAGE_NAME" value="Day5" />
+      <option name="MAIN_CLASS_NAME" value="Day5.SeatFinderTest" />
+      <option name="METHOD_NAME" value="testSeatFinderFindMyRow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassportProcessor2Test.passportValidatesPassportforDay2Requirements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeatFinderTest.testSeatFinderGetAnswerForRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day4.*" />
+          <option name="PATTERN" value="Day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day4" />
-      <option name="MAIN_CLASS_NAME" value="Day4.PassportProcessor2Test" />
-      <option name="METHOD_NAME" value="passportValidatesPassportforDay2Requirements" />
+      <option name="PACKAGE_NAME" value="Day5" />
+      <option name="MAIN_CLASS_NAME" value="Day5.SeatFinderTest" />
+      <option name="METHOD_NAME" value="testSeatFinderGetAnswerForRealData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeatFinderTest.testSeatFinderGetAnswerForTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day5" />
+      <option name="MAIN_CLASS_NAME" value="Day5.SeatFinderTest" />
+      <option name="METHOD_NAME" value="testSeatFinderGetAnswerForTestData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeatFinderTest.testSeatFinderGetAnswerForRealData" />
+        <item itemvalue="JUnit.SeatFinderTest.testSeatFinderGetAnswerForTestData" />
+        <item itemvalue="JUnit.SeatFinderTest.testSeatFinderFindMyRow" />
         <item itemvalue="JUnit.SeatFinderTest.testSeatFinderObjectSplitsString" />
         <item itemvalue="JUnit.SeatFinderTest.testSeatFinderObject" />
-        <item itemvalue="JUnit.PassportProcessor2Test" />
-        <item itemvalue="JUnit.PassportProcessor2Test.checkTestInputForDay2" />
-        <item itemvalue="JUnit.PassportProcessor2Test.passportValidatesPassportforDay2Requirements" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607377296267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="started day 5">
+      <created>1607381596011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607381596011</updated>
+    </task>
+    <task id="LOCAL-00003" summary="started day 5">
+      <created>1607381777686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607381777686</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -195,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="completed day4 part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed day4 part 2" />
+    <MESSAGE value="started day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="started day 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607278790265">
@@ -207,53 +223,53 @@
     </state>
     <state x="566" y="254" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1607109240963" />
     <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606989274831" />
-    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1607381244527">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1607431373119">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607381244527" />
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606990562005" />
+    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607382152694" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607431373119" />
     <state x="594" y="307" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607199111005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="594" y="307" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1607199111005" />
     <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1606900955991" />
-    <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606916106441">
+    <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607431081597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606916106441" />
-    <state x="730" y="0" key="CommitChangelistDialog2" timestamp="1607377294474">
+    <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607431081597" />
+    <state x="730" y="0" key="CommitChangelistDialog2" timestamp="1607381776328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="730" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607377294474" />
-    <state width="1493" height="190" key="GridCell.Tab.0.bottom" timestamp="1607381325303">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="730" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607381776328" />
+    <state width="916" height="255" key="GridCell.Tab.0.bottom" timestamp="1607432214818">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607381325303" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607370144590" />
-    <state width="1493" height="190" key="GridCell.Tab.0.center" timestamp="1607381325303">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="916" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607432214818" />
+    <state width="916" height="255" key="GridCell.Tab.0.center" timestamp="1607432214817">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607381325303" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607370144590" />
-    <state width="1493" height="190" key="GridCell.Tab.0.left" timestamp="1607381325303">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="916" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607432214817" />
+    <state width="916" height="255" key="GridCell.Tab.0.left" timestamp="1607432214817">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607381325303" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607370144590" />
-    <state width="1493" height="190" key="GridCell.Tab.0.right" timestamp="1607381325303">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="916" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607432214817" />
+    <state width="916" height="255" key="GridCell.Tab.0.right" timestamp="1607432214817">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607381325303" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607370144590" />
+    <state width="916" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607432214817" />
     <state x="352" y="0" key="SettingsEditor" timestamp="1607380013321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607380013321" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606821007539" />
-    <state x="722" y="148" key="Vcs.Push.Dialog.v2" timestamp="1607377299930">
+    <state x="722" y="148" key="Vcs.Push.Dialog.v2" timestamp="1607381598785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607377299930" />
+    <state x="722" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607381598785" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607189839070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
