@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -73,5 +74,47 @@ public class CustomsCheckerTest {
         }
         System.out.println(counter);
         //assertEquals(11, counter );
+    }
+
+    @Test
+    public void testGetDataGroups() throws IOException {
+        String[] dataArray = ReadFile.getCustomsInfoFromFile("src/main/java/Day6/Day6TestInput.txt");
+        CustomsChecker cc = new CustomsChecker(dataArray);
+        List<List> groupedData = cc.getGroupedData();
+
+        assertEquals(5, groupedData.size());
+        assertEquals(3, groupedData.get(1).size());
+        assertEquals(2, groupedData.get(2).size());
+
+    }
+
+    @Test
+    public void checkLetterFrequency() {
+        String[] data = new String[]{"abac"};
+        String groupedData = "abac";
+        CustomsChecker cc = new CustomsChecker(data);
+        HashMap<Character,Integer> result = cc.getLetterFrequency(groupedData);
+        assertEquals(2, (int)result.get('a'));
+        assertEquals(1, (int)result.get('b'));
+        assertEquals(1, (int)result.get('c'));
+
+    }
+
+    @Test
+    public void testPart2AnswerWithTestData() throws IOException {
+        String[] dataArray = ReadFile.getCustomsInfoFromFile("src/main/java/Day6/Day6TestInput.txt");
+        CustomsChecker cc = new CustomsChecker(dataArray);
+        int result = cc.getPart2Answer();
+        assertEquals(6,result);
+
+    }
+
+    @Test
+    public void testPart2AnswerWithRealData() throws IOException {
+        String[] dataArray = ReadFile.getCustomsInfoFromFile("src/main/java/Day6/Day6Input.txt");
+        CustomsChecker cc = new CustomsChecker(dataArray);
+        int result = cc.getPart2Answer();
+        assertEquals(3493,result);
+
     }
 }

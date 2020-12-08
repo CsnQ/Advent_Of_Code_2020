@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day6/CustomsChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day6/Day6Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day6/Day6TestInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day6/CustomsCheckerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/ReadFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day6/CustomsChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day6/CustomsChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day6/CustomsCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day6/CustomsCheckerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Day2/ReadFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day2/ReadFileTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,8 +80,8 @@
       <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomsCheckerTest.testSolutionForDay1WithRealData">
-    <configuration name="CustomsCheckerTest.TestDistinctAnswers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomsCheckerTest.testPart2AnswerWithRealData">
+    <configuration name="CustomsCheckerTest.checkLetterFrequency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
@@ -96,13 +91,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day6" />
       <option name="MAIN_CLASS_NAME" value="Day6.CustomsCheckerTest" />
-      <option name="METHOD_NAME" value="TestDistinctAnswers" />
+      <option name="METHOD_NAME" value="checkLetterFrequency" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomsCheckerTest.parseDataWithMultipleGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomsCheckerTest.testGetDataGroups" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +107,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day6" />
       <option name="MAIN_CLASS_NAME" value="Day6.CustomsCheckerTest" />
-      <option name="METHOD_NAME" value="parseDataWithMultipleGroup" />
+      <option name="METHOD_NAME" value="testGetDataGroups" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomsCheckerTest.parseDataWithSingleGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomsCheckerTest.testPart2AnswerWithRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +123,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day6" />
       <option name="MAIN_CLASS_NAME" value="Day6.CustomsCheckerTest" />
-      <option name="METHOD_NAME" value="parseDataWithSingleGroup" />
+      <option name="METHOD_NAME" value="testPart2AnswerWithRealData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomsCheckerTest.testPart2AnswerWithTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day6" />
+      <option name="MAIN_CLASS_NAME" value="Day6.CustomsCheckerTest" />
+      <option name="METHOD_NAME" value="testPart2AnswerWithTestData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,29 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomsCheckerTest.testSolutionForDay1WithTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day6" />
-      <option name="MAIN_CLASS_NAME" value="Day6.CustomsCheckerTest" />
-      <option name="METHOD_NAME" value="testSolutionForDay1WithTestData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomsCheckerTest.testPart2AnswerWithRealData" />
+        <item itemvalue="JUnit.CustomsCheckerTest.testPart2AnswerWithTestData" />
+        <item itemvalue="JUnit.CustomsCheckerTest.checkLetterFrequency" />
+        <item itemvalue="JUnit.CustomsCheckerTest.testGetDataGroups" />
         <item itemvalue="JUnit.CustomsCheckerTest.testSolutionForDay1WithRealData" />
-        <item itemvalue="JUnit.CustomsCheckerTest.testSolutionForDay1WithTestData" />
-        <item itemvalue="JUnit.CustomsCheckerTest.parseDataWithMultipleGroup" />
-        <item itemvalue="JUnit.CustomsCheckerTest.TestDistinctAnswers" />
-        <item itemvalue="JUnit.CustomsCheckerTest.parseDataWithSingleGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607435491170</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed Day6, part1">
+      <created>1607462364351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607462364351</updated>
+    </task>
+    <task id="LOCAL-00007" summary="completed Day6, part1- minor edits removing extra print line statements">
+      <created>1607462550599</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607462550599</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -232,7 +241,9 @@
     <MESSAGE value="started day 5" />
     <MESSAGE value="completed day5, pt1" />
     <MESSAGE value="completed day5, pt2" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed day5, pt2" />
+    <MESSAGE value="completed Day6, part1" />
+    <MESSAGE value="completed Day6, part1- minor edits removing extra print line statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed Day6, part1- minor edits removing extra print line statements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="116" y="117" width="1688" height="806" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607451299538">
@@ -245,10 +256,10 @@
     </state>
     <state x="566" y="254" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1607109240963" />
     <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606989274831" />
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1607450576091">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1607464343159">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607382152694" />
+    <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607464343159" />
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607450576091" />
     <state x="594" y="307" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607199111005">
       <screen x="0" y="0" width="1536" height="824" />
@@ -259,40 +270,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607431081597" />
-    <state x="913" y="0" key="CommitChangelistDialog2" timestamp="1607435490447">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="730" y="0" key="CommitChangelistDialog2" timestamp="1607462549355">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="730" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607381776328" />
+    <state x="730" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607462549355" />
     <state x="913" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607435490447" />
-    <state width="1493" height="363" key="GridCell.Tab.0.bottom" timestamp="1607462229626">
+    <state width="1493" height="363" key="GridCell.Tab.0.bottom" timestamp="1607469009374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607462229626" />
+    <state width="1493" height="363" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607469009374" />
     <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607451653440" />
-    <state width="1493" height="363" key="GridCell.Tab.0.center" timestamp="1607462229626">
+    <state width="1493" height="363" key="GridCell.Tab.0.center" timestamp="1607469009374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607462229626" />
+    <state width="1493" height="363" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607469009374" />
     <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607451653440" />
-    <state width="1493" height="363" key="GridCell.Tab.0.left" timestamp="1607462229626">
+    <state width="1493" height="363" key="GridCell.Tab.0.left" timestamp="1607469009374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607462229626" />
+    <state width="1493" height="363" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607469009374" />
     <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607451653439" />
-    <state width="1493" height="363" key="GridCell.Tab.0.right" timestamp="1607462229626">
+    <state width="1493" height="363" key="GridCell.Tab.0.right" timestamp="1607469009374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607462229626" />
+    <state width="1493" height="363" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607469009374" />
     <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607451653440" />
     <state x="352" y="0" key="SettingsEditor" timestamp="1607380013321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607380013321" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606821007539" />
-    <state x="903" y="187" key="Vcs.Push.Dialog.v2" timestamp="1607435494582">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="722" y="148" key="Vcs.Push.Dialog.v2" timestamp="1607462552641">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607381598785" />
+    <state x="722" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607462552641" />
     <state x="903" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607435494582" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607189839070">
       <screen x="0" y="0" width="1536" height="824" />
@@ -311,6 +322,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1607191946384" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607468705293">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607468705293" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
