@@ -34,18 +34,6 @@ public class CustomsCheckerTest {
         //assertEquals("abc", result );
     }
 
-
-    @Test
-    public void TestDistinctAnswers() {
-        String data = "ab\n" +
-                "ac";
-        String[] dataArray = new String[]{data};
-        CustomsChecker cc = new CustomsChecker(dataArray);
-        String parsedString = cc.parseDataForPart1(dataArray[0]);
-        int result = cc.countDistinctAnswers(parsedString);
-        assertEquals(3, result);
-    }
-
     @Test
     public void testSolutionForDay1WithTestData() throws IOException {
         int counter = 0;

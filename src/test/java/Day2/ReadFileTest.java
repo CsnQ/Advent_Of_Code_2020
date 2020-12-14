@@ -38,4 +38,13 @@ public class ReadFileTest extends TestCase{
         String[] result = getCustomsInfoFromFile(filepath);
 
     }
+
+    public void testReadFileWithDay7Data() throws IOException {
+        String filepath = "src/main/java/Day7/Day7TestInput.txt";
+        List<String> result = readLinesFromFile(filepath);
+        assertEquals("light red bags contain 1 bright white bag, 2 muted yellow bags.", result.get(0));
+        assertEquals("dark orange bags contain 3 bright white bags, 4 muted yellow bags.", result.get(1));
+        assertEquals("bright white bags contain 1 shiny gold bag.", result.get(2));
+        assertEquals(9, result.size());
+    }
 }
