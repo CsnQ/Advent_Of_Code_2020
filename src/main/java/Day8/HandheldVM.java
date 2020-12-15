@@ -43,22 +43,15 @@ public class HandheldVM {
         return steps;
     }
 
-    //        List<String[]> result = hv.getProcessedData();
-    //        assertEquals("nop", result.get(0)[0]);
-    //        assertEquals("+0", result.get(0)[1]);
+    //to stop the infinite loop I cannot vist the same instruction twice. so by replacing the instruction name with DONE I am
+    //effectively ticking off instructions as I visit. Once I revisit an instruction it will read done and break the loop
     public void executeBootCodeForPart1() {
 
         int currentIndex = 0;
 
         while (processedData.get(currentIndex)[0] != "DONE") {
             String[] currentInstruction = processedData.get(currentIndex);
-            System.out.println("current instruction " + currentInstruction[0]);
-            System.out.println("current steps " + currentInstruction[1]);
             switch (currentInstruction[0]) {
-                case ("DONE"):
-
-                    break;
-
                 case ("nop"):
                     processedData.get(currentIndex)[0] = "DONE";
                     currentIndex++;
@@ -86,28 +79,26 @@ public class HandheldVM {
                     }
                     break;
 
-                    case ("jmp"):
-                        processedData.get(currentIndex)[0] = "DONE";
-                        String[] jumpSteps = getSteps(currentInstruction[1]);
-                        String jumpOperator = jumpSteps[0];
-                        int jumpIncrement = Integer.parseInt(jumpSteps[1]);
-                        System.out.println("jump!");
+                case ("jmp"):
+                    processedData.get(currentIndex)[0] = "DONE";
+                    String[] jumpSteps = getSteps(currentInstruction[1]);
+                    String jumpOperator = jumpSteps[0];
+                    int jumpIncrement = Integer.parseInt(jumpSteps[1]);
 
-                        if (jumpOperator.equals("+")) {
-                            if (currentIndex + jumpIncrement < processedData.size()) {
-                                currentIndex = currentIndex+jumpIncrement;
-                            }
-
-
-                        } else if (jumpOperator.equals("-")) {
-
-                            if (currentIndex - jumpIncrement  >0 && currentIndex-jumpIncrement<processedData.size()) {
-                                currentIndex=currentIndex-jumpIncrement;
-                            }
+                    if (jumpOperator.equals("+")) {
+                        if (currentIndex + jumpIncrement < processedData.size()) {
+                            currentIndex = currentIndex + jumpIncrement;
                         }
-                        break;
-            }
 
+
+                    } else if (jumpOperator.equals("-")) {
+
+                        if (currentIndex - jumpIncrement > 0 && currentIndex - jumpIncrement < processedData.size()) {
+                            currentIndex = currentIndex - jumpIncrement;
+                        }
+                    }
+                    break;
+            }
 
 
         }
