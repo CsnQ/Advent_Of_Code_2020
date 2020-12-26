@@ -46,6 +46,24 @@ public class ReadFile {
 
         return dataFromFile;
     }
+
+    public static List<Long> readLinesFromFileAsLong(String filePath) {
+        List<Long> dataFromFile = new ArrayList<>();
+        try {
+            File inputData = new File(filePath);
+            Scanner myReader = new Scanner(inputData);
+            while (myReader.hasNextLine()) {
+                long data = myReader.nextInt();
+                dataFromFile.add(data);
+            }
+            myReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
+
+        return dataFromFile;
+    }
     //followed tutorial from https://www.tutorialspoint.com/Counting-number-of-paragraphs-in-text-file-using-java
     public static String[] getPassportInfoFromFile(String filePath) throws IOException {
         File file = new File(filePath);

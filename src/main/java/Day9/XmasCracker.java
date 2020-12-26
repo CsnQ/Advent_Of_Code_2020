@@ -3,43 +3,61 @@ package Day9;
 import java.util.List;
 
 public class XmasCracker {
-    List<Integer> rawInput;
-    List<Integer> preamble;
-    List<Integer> postAmble;
+    List<Long> rawInput;
+    List<Long> preamble;
+    List<Long> postAmble;
     int preAmbleLength;
-    int currentNum;
+    Long currentNum;
+    int preAmbleStartIndex;
+    int getPreAmbleEndIndex;
+    int startingIndex;
 
     public void splitList(){
-        this.preamble= rawInput.subList(0, preAmbleLength-1);
-        this.postAmble = rawInput.subList(5,rawInput.size());
-        currentNum=postAmble.get(0);
+        this.preamble= rawInput.subList(preAmbleStartIndex,getPreAmbleEndIndex);
+        this.postAmble = rawInput.subList(preAmbleLength,rawInput.size());
+        this.currentNum= rawInput.get(getPreAmbleEndIndex+1);
     }
 
-    public XmasCracker(List<Integer> rawInput, int preAmbleLength) {
+    public XmasCracker(List<Long> rawInput, int preAmbleLength) {
         this.rawInput = rawInput;
+        this.preAmbleStartIndex=0;
+        this.getPreAmbleEndIndex = preAmbleLength-1;
         this.preAmbleLength = preAmbleLength;
+        this.startingIndex=preAmbleLength;
         splitList();
     }
 
-    public List<Integer> getPreamble() {
+    public int getStartingIndex() {
+        return startingIndex;
+    }
+
+    public List<Long> getPreamble() {
         return preamble;
     }
 
-    public List<Integer> getPostAmble() {
+    public List<Long> getPostAmble() {
         return postAmble;
     }
 
-    public int getCurrentNum() {
+    public Long getCurrentNum() {
         return currentNum;
     }
 
-    public boolean numIsSumOfNumInList(int numToCheck, List<Integer> precedingValues){
-        for (int i = 0; i < precedingValues.size() ; i++) {
-            for (int j = 0; j < precedingValues.size(); j++) {
+    //shifts my list along to look at the new values;
+    public void reAssignValues(){
+        this.preAmbleStartIndex=preAmbleStartIndex+1;
+        this.getPreAmbleEndIndex=getPreAmbleEndIndex+1;
+        splitList();
+    }
+
+    //checks if currentNum is sum of one of the numbers in the preamble list
+    public boolean numIsSumOfNumInList(){
+        for (int i = 0; i < this.preamble.size() ; i++) {
+            for (int j = 0; j < this.preamble.size(); j++) {
                 //shouldn't be checking the same values
                 if (i!=j){
-                   int result = precedingValues.get(i)+precedingValues.get(j);
-                    if (result==numToCheck){
+                   Long result = this.preamble.get(i)+this.preamble.get(j);
+                    if (result.equals(this.currentNum)){
                         return true;
                     }
                 }
@@ -49,4 +67,23 @@ public class XmasCracker {
         return false;
 
     }
+
+    public Long findWeaknessInSystem(){
+        boolean numFound = false;
+        int numberOfTries = rawInput.size()-preAmbleLength;
+        while (!numFound){
+            for (int i = 0; i < numberOfTries; i++) {
+                if (numIsSumOfNumInList()==false){
+                    numFound = true;
+                    return getCurrentNum();
+                }else{
+                    reAssignValues();
+                }
+            }
+        }
+        return 0l;
+    }
+
+
+
 }

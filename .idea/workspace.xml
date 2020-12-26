@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/Day9TestInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/miniInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day9/XmasCrackerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/Day9Input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2/ReadFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/ReadFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Day2/ReadFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Day2/ReadFileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day9/XmasCrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day9/XmasCrackerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Day6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Day9" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -62,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day9" />
       <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day6" />
       <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day4" />
     </key>
@@ -80,23 +77,7 @@
       <recent name="Day5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.XmasCrackerTest">
-    <configuration name="ReadFileTest.testReadFileWithDay9Data" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day2" />
-      <option name="MAIN_CLASS_NAME" value="Day2.ReadFileTest" />
-      <option name="METHOD_NAME" value="testReadFileWithDay9Data" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.XmasCrackerTest.findWeaknessInTestData">
     <configuration name="XmasCrackerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
@@ -112,6 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XmasCrackerTest.findWeaknessInTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9" />
+      <option name="MAIN_CLASS_NAME" value="Day9.XmasCrackerTest" />
+      <option name="METHOD_NAME" value="findWeaknessInTestData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XmasCrackerTest.numIsSumOfNumInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
@@ -123,22 +120,6 @@
       <option name="PACKAGE_NAME" value="Day9" />
       <option name="MAIN_CLASS_NAME" value="Day9.XmasCrackerTest" />
       <option name="METHOD_NAME" value="numIsSumOfNumInList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XmasCrackerTest.numIsSumOfNumInListFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day9" />
-      <option name="MAIN_CLASS_NAME" value="Day9.XmasCrackerTest" />
-      <option name="METHOD_NAME" value="numIsSumOfNumInListFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,13 +141,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XmasCrackerTest.testReAssignValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9" />
+      <option name="MAIN_CLASS_NAME" value="Day9.XmasCrackerTest" />
+      <option name="METHOD_NAME" value="testReAssignValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.XmasCrackerTest.findWeaknessInTestData" />
         <item itemvalue="JUnit.XmasCrackerTest" />
-        <item itemvalue="JUnit.XmasCrackerTest.numIsSumOfNumInListFalse" />
         <item itemvalue="JUnit.XmasCrackerTest.numIsSumOfNumInList" />
+        <item itemvalue="JUnit.XmasCrackerTest.testReAssignValues" />
         <item itemvalue="JUnit.XmasCrackerTest.preAmbleAndPostAmble" />
-        <item itemvalue="JUnit.ReadFileTest.testReadFileWithDay9Data" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608059041190</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="started day 9">
+      <created>1609003042720</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609003042720</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -274,7 +278,8 @@
     <MESSAGE value="minor edits for Day6 part 2" />
     <MESSAGE value="started day 7" />
     <MESSAGE value="completed day 8 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed day 8 part 1" />
+    <MESSAGE value="started day 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="started day 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -283,6 +288,14 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Day9/XmasCracker.java</url>
+          <line>53</line>
+          <properties class="Day9.XmasCracker" method="numIsSumOfNumInList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

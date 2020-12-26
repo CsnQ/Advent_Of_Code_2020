@@ -14,28 +14,65 @@ public class XmasCrackerTest {
 
     @Test
     public void numIsSumOfNumInList() {
-        List<Integer> input = ReadFile.readLinesFromFileAsInt("src/main/java/Day9/miniInput.txt");
+        List<Long> input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/miniInput.txt");
         XmasCracker xc = new XmasCracker(input,5);
-        assertEquals(true, xc.numIsSumOfNumInList(xc.getCurrentNum(), xc.getPreamble()));
+        assertEquals(true, xc.numIsSumOfNumInList());
     }
 
     @Test
     public void numIsSumOfNumInListFalse() {
-        List<Integer> input = ReadFile.readLinesFromFileAsInt("src/main/java/Day9/miniInput2.txt");
+        List<Long> input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/miniInput2.txt");
         XmasCracker xc = new XmasCracker(input,5);
-        assertEquals(false, xc.numIsSumOfNumInList(xc.getCurrentNum(), xc.getPreamble()));
+        assertEquals(false, xc.numIsSumOfNumInList());
     }
 
     @Test
     public void preAmbleAndPostAmble(){
-        List<Integer> input = ReadFile.readLinesFromFileAsInt("src/main/java/Day9/miniInput.txt");
+        List<Long> input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/miniInput.txt");
         XmasCracker xc = new XmasCracker(input,5);
-        List<Integer> preAmble = xc.getPreamble();
-        List<Integer> postAmble = xc.getPostAmble();
-        int number = xc.getCurrentNum();
+        List<Long> preAmble = xc.getPreamble();
+        List<Long> postAmble = xc.getPostAmble();
+        long number = xc.getCurrentNum();
 
         assertEquals(4, preAmble.size());
         assertEquals(1,postAmble.size() );
-        assertEquals(40,number);
+        assertEquals(40L,number);
+        assertEquals(5,xc.getStartingIndex());
+    }
+
+    @Test
+    public void testReAssignValues(){
+        List<Long>input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/Day9TestInput.txt");
+        XmasCracker xc = new XmasCracker(input,5);
+        List<Long> preAmble = xc.getPreamble();
+        List<Long> postAmble = xc.getPostAmble();
+        long number = xc.getCurrentNum();
+
+        assertEquals(4, preAmble.size());
+        assertEquals(40L,number);
+
+        xc.reAssignValues();
+
+        preAmble=xc.getPreamble();
+        long firstNum = preAmble.get(0);
+        long currentNum = xc.getCurrentNum();
+        assertEquals(4,preAmble.size());
+        assertEquals(20, firstNum);
+        assertEquals(62,currentNum);
+    }
+
+    @Test
+    public void findWeaknessInTestData() {
+        List<Long>input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/Day9TestInput.txt");
+        XmasCracker xc = new XmasCracker(input,5);
+        long result = xc.findWeaknessInSystem();
+        assertEquals(127,result);
+    }
+
+    @Test
+    public void findWeaknessInRealData(){
+        List<Long> input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/Day9TestInput.txt");
+        XmasCracker xc = new XmasCracker(input,5);
+        long result = xc.findWeaknessInSystem();
     }
 }
