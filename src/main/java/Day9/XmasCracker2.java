@@ -27,8 +27,7 @@ public class XmasCracker2 {
     }
 
     public long addSequence(List<Long> currentSequence) {
-        long result = currentSequence.stream().reduce(0L, (a, b) -> a + b);
-        return result;
+        return currentSequence.stream().reduce(0L, (a, b) -> a + b);
     }
 
     public boolean isValidSequence(){
