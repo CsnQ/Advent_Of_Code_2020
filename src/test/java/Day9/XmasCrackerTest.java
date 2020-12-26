@@ -48,7 +48,7 @@ public class XmasCrackerTest {
         List<Long> postAmble = xc.getPostAmble();
         long number = xc.getCurrentNum();
 
-        assertEquals(4, preAmble.size());
+        assertEquals(5, preAmble.size());
         assertEquals(40L,number);
 
         xc.reAssignValues();
@@ -56,7 +56,7 @@ public class XmasCrackerTest {
         preAmble=xc.getPreamble();
         long firstNum = preAmble.get(0);
         long currentNum = xc.getCurrentNum();
-        assertEquals(4,preAmble.size());
+        assertEquals(5,preAmble.size());
         assertEquals(20, firstNum);
         assertEquals(62,currentNum);
     }
@@ -71,11 +71,12 @@ public class XmasCrackerTest {
 
     //9948 too low
     @Test
-    public void findWeaknessInRealData(){
+    public void findWeaknessInRealDataForDay1(){
         List<Long> input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/Day9Input.txt");
         XmasCracker xc = new XmasCracker(input,25);
         long result = xc.findWeaknessInSystem();
         System.out.println(result);
+        assertEquals(10884537,result);
     }
 
     @Test

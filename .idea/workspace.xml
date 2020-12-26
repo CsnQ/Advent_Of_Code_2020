@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/testInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day9/XmasCracker2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/ReadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Day9/XmasCrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day9/XmasCrackerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/ReadFile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,55 @@
       <recent name="Day5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.XmasCrackerTest.findWeaknessInRealData">
+  <component name="RunManager" selected="JUnit.XmasCracker2Test.testValidSequence">
+    <configuration name="XmasCracker2Test.addSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9" />
+      <option name="MAIN_CLASS_NAME" value="Day9.XmasCracker2Test" />
+      <option name="METHOD_NAME" value="addSequence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmasCracker2Test.testReassignmentOfValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9" />
+      <option name="MAIN_CLASS_NAME" value="Day9.XmasCracker2Test" />
+      <option name="METHOD_NAME" value="testReassignmentOfValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmasCracker2Test.testValidSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9" />
+      <option name="MAIN_CLASS_NAME" value="Day9.XmasCracker2Test" />
+      <option name="METHOD_NAME" value="testValidSequence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XmasCrackerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
@@ -90,38 +136,6 @@
       <option name="PACKAGE_NAME" value="Day9" />
       <option name="MAIN_CLASS_NAME" value="Day9.XmasCrackerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XmasCrackerTest.findWeaknessInRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day9" />
-      <option name="MAIN_CLASS_NAME" value="Day9.XmasCrackerTest" />
-      <option name="METHOD_NAME" value="findWeaknessInRealData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XmasCrackerTest.findWeaknessInTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day9" />
-      <option name="MAIN_CLASS_NAME" value="Day9.XmasCrackerTest" />
-      <option name="METHOD_NAME" value="findWeaknessInTestData" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,29 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmasCrackerTest.testSubset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day9" />
-      <option name="MAIN_CLASS_NAME" value="Day9.XmasCrackerTest" />
-      <option name="METHOD_NAME" value="testSubset" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.XmasCrackerTest.findWeaknessInRealData" />
-        <item itemvalue="JUnit.XmasCrackerTest.preAmbleAndPostAmble" />
-        <item itemvalue="JUnit.XmasCrackerTest.findWeaknessInTestData" />
-        <item itemvalue="JUnit.XmasCrackerTest.testSubset" />
+        <item itemvalue="JUnit.XmasCracker2Test.testValidSequence" />
+        <item itemvalue="JUnit.XmasCracker2Test.testReassignmentOfValues" />
+        <item itemvalue="JUnit.XmasCracker2Test.addSequence" />
         <item itemvalue="JUnit.XmasCrackerTest" />
+        <item itemvalue="JUnit.XmasCrackerTest.preAmbleAndPostAmble" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609006027317</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="completed day9 part 1">
+      <created>1609007772014</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609007772014</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -288,7 +293,8 @@
     <MESSAGE value="completed day 8 part 1" />
     <MESSAGE value="started day 9" />
     <MESSAGE value="refactor to account for longer numbers on input" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor to account for longer numbers on input" />
+    <MESSAGE value="completed day9 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed day9 part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
