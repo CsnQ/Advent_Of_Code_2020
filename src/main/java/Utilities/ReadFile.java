@@ -53,7 +53,7 @@ public class ReadFile {
             File inputData = new File(filePath);
             Scanner myReader = new Scanner(inputData);
             while (myReader.hasNextLine()) {
-                long data = myReader.nextInt();
+                long data = myReader.nextLong();
                 dataFromFile.add(data);
             }
             myReader.close();

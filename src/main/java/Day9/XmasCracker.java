@@ -10,25 +10,20 @@ public class XmasCracker {
     Long currentNum;
     int preAmbleStartIndex;
     int getPreAmbleEndIndex;
-    int startingIndex;
+
 
     public void splitList(){
         this.preamble= rawInput.subList(preAmbleStartIndex,getPreAmbleEndIndex);
         this.postAmble = rawInput.subList(preAmbleLength,rawInput.size());
-        this.currentNum= rawInput.get(getPreAmbleEndIndex+1);
+        this.currentNum= rawInput.get(getPreAmbleEndIndex);
     }
 
     public XmasCracker(List<Long> rawInput, int preAmbleLength) {
         this.rawInput = rawInput;
         this.preAmbleStartIndex=0;
-        this.getPreAmbleEndIndex = preAmbleLength-1;
+        this.getPreAmbleEndIndex = preAmbleLength;
         this.preAmbleLength = preAmbleLength;
-        this.startingIndex=preAmbleLength;
         splitList();
-    }
-
-    public int getStartingIndex() {
-        return startingIndex;
     }
 
     public List<Long> getPreamble() {
@@ -63,25 +58,18 @@ public class XmasCracker {
                 }
             }
         }
-
         return false;
-
     }
 
     public Long findWeaknessInSystem(){
-        boolean numFound = false;
-        int numberOfTries = rawInput.size()-preAmbleLength;
-        while (!numFound){
-            for (int i = 0; i < numberOfTries; i++) {
-                if (numIsSumOfNumInList()==false){
-                    numFound = true;
-                    return getCurrentNum();
-                }else{
-                    reAssignValues();
-                }
+        while (true){
+            if (numIsSumOfNumInList()){
+                reAssignValues();
+            }else{
+                return currentNum;
             }
+
         }
-        return 0l;
     }
 
 
