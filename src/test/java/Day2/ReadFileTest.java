@@ -48,5 +48,13 @@ public class ReadFileTest extends TestCase{
         assertEquals(9, result.size());
     }
 
+    public void testReadFileWithDay9Data() throws IOException {
+        String filepath = "src/main/java/Day9/Day9TestInput.txt";
+        List<Integer> result = readLinesFromFileAsInt(filepath);
+        int expected1 = result.get(0);
+        int expected2 = result.get(1);
+        assertEquals(35, expected1);
+        assertEquals(20, expected2);
 
+    }
 }
