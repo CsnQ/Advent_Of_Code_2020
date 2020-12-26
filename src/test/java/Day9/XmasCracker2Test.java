@@ -46,7 +46,7 @@ public class XmasCracker2Test {
 
         assertEquals(false,xc2.isValidSequence());
         assertEquals(5,xc2.currentSequence.size());
-        assertEquals(70,xc2.addSequence(xc2.currentSequence));
+        assertEquals(142,xc2.addSequence(xc2.currentSequence));
         System.out.println(xc2.currentSequence);
 
     }

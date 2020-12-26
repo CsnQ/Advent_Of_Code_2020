@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Day9/XmasCracker2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day9/XmasCracker2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <recent name="Day5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.XmasCracker2Test.testFindSequenceWithRealData">
+  <component name="RunManager" selected="JUnit.XmasCracker2Test.testValidSequence">
     <configuration name="XmasCracker2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
@@ -157,10 +156,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.XmasCracker2Test.testFindSequenceWithRealData" />
-        <item itemvalue="JUnit.XmasCracker2Test.testFindSequenceWithTestData" />
         <item itemvalue="JUnit.XmasCracker2Test.testValidSequence" />
         <item itemvalue="JUnit.XmasCracker2Test" />
+        <item itemvalue="JUnit.XmasCracker2Test.testFindSequenceWithRealData" />
+        <item itemvalue="JUnit.XmasCracker2Test.testFindSequenceWithTestData" />
         <item itemvalue="JUnit.XmasCracker2Test.testReassignmentOfValues" />
       </list>
     </recent_temporary>
@@ -279,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609012449530</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Completed day 9 part 2">
+      <created>1609015778213</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609015778213</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -301,7 +307,8 @@
     <MESSAGE value="refactor to account for longer numbers on input" />
     <MESSAGE value="completed day9 part 1" />
     <MESSAGE value="started day9 part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="started day9 part2" />
+    <MESSAGE value="Completed day 9 part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed day 9 part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,11 +317,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Day9/XmasCracker2Test.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
