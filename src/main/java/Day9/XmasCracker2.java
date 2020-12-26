@@ -1,6 +1,7 @@
 package Day9;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -31,11 +32,12 @@ public class XmasCracker2 {
     }
 
     public boolean isValidSequence(){
+        long currentTotal = 0;
         currentSequence.add(currentIteration.get(0));
         for (int i = 1; i <currentIteration.size() ; i++) {
             currentSequence.add(currentIteration.get(i));
             if (currentSequence.size()>2){
-                long currentTotal = addSequence(currentIteration);
+                 currentTotal = addSequence(currentSequence);
                 if (currentTotal>expectedNumber){
                     return false;
                 }else if(currentTotal==expectedNumber){
@@ -45,6 +47,20 @@ public class XmasCracker2 {
 
         }
         return false;
+    }
+
+    public List<Long> findSequence (){
+
+        while (true){
+            if (!isValidSequence()){
+                isValidSequence();
+                reAssignValues();
+            }else{
+                return currentSequence;
+            }
+
+        }
+
     }
 
 

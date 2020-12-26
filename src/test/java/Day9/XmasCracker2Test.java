@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -42,8 +43,31 @@ public class XmasCracker2Test {
     public void testValidSequence(){
         List<Long> input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/Day9TestInput.txt");
         XmasCracker2 xc2 = new XmasCracker2(input,127L);
-        System.out.println(xc2.isValidSequence());
+
         assertEquals(false,xc2.isValidSequence());
+        assertEquals(5,xc2.currentSequence.size());
+        assertEquals(70,xc2.addSequence(xc2.currentSequence));
         System.out.println(xc2.currentSequence);
+
+    }
+
+    @Test
+    public void testFindSequenceWithTestData() {
+        List<Long> input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/Day9TestInput.txt");
+        XmasCracker2 xc2 = new XmasCracker2(input,127L);
+        List<Long> result  = xc2.findSequence();
+        System.out.println(result);
+        long expectedNumber = Collections.max(result)+Collections.min(result);
+        assertEquals(62L,expectedNumber);
+    }
+
+    @Test
+    public void testFindSequenceWithRealData() {
+        List<Long> input = ReadFile.readLinesFromFileAsLong("src/main/java/Day9/Day9Input.txt");
+        XmasCracker2 xc2 = new XmasCracker2(input,10884537L);
+        List<Long> result  = xc2.findSequence();
+        System.out.println(result);
+        long expectedNumber = Collections.max(result)+Collections.min(result);
+        System.out.println(expectedNumber);
     }
 }
