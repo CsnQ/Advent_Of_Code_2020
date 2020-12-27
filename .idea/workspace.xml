@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day10/Day10TestInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day10/Day10TestInput2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day10/JoltCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day10/JoltCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day9/XmasCracker2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day9/XmasCracker2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/XmasCracker2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,88 +71,89 @@
       <recent name="Day4" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Day10" />
       <recent name="Day9" />
       <recent name="Day8" />
       <recent name="Day7" />
       <recent name="Day6" />
-      <recent name="Day5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.XmasCracker2Test.testValidSequence">
-    <configuration name="XmasCracker2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JoltCalculatorTest.testCalculationForPart1withRealData">
+    <configuration name="JoltCalculatorTest.getSortedInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9.*" />
+          <option name="PATTERN" value="Day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day9" />
-      <option name="MAIN_CLASS_NAME" value="Day9.XmasCracker2Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XmasCracker2Test.testFindSequenceWithRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day9" />
-      <option name="MAIN_CLASS_NAME" value="Day9.XmasCracker2Test" />
-      <option name="METHOD_NAME" value="testFindSequenceWithRealData" />
+      <option name="PACKAGE_NAME" value="Day10" />
+      <option name="MAIN_CLASS_NAME" value="Day10.JoltCalculatorTest" />
+      <option name="METHOD_NAME" value="getSortedInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmasCracker2Test.testFindSequenceWithTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JoltCalculatorTest.testCalculationForPart1withRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9.*" />
+          <option name="PATTERN" value="Day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day9" />
-      <option name="MAIN_CLASS_NAME" value="Day9.XmasCracker2Test" />
-      <option name="METHOD_NAME" value="testFindSequenceWithTestData" />
+      <option name="PACKAGE_NAME" value="Day10" />
+      <option name="MAIN_CLASS_NAME" value="Day10.JoltCalculatorTest" />
+      <option name="METHOD_NAME" value="testCalculationForPart1withRealData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmasCracker2Test.testReassignmentOfValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JoltCalculatorTest.testCalculationForPart1withTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9.*" />
+          <option name="PATTERN" value="Day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day9" />
-      <option name="MAIN_CLASS_NAME" value="Day9.XmasCracker2Test" />
-      <option name="METHOD_NAME" value="testReassignmentOfValues" />
+      <option name="PACKAGE_NAME" value="Day10" />
+      <option name="MAIN_CLASS_NAME" value="Day10.JoltCalculatorTest" />
+      <option name="METHOD_NAME" value="testCalculationForPart1withTestData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmasCracker2Test.testValidSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JoltCalculatorTest.testDifferenceMapHasRightvalues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9.*" />
+          <option name="PATTERN" value="Day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day9" />
-      <option name="MAIN_CLASS_NAME" value="Day9.XmasCracker2Test" />
-      <option name="METHOD_NAME" value="testValidSequence" />
+      <option name="PACKAGE_NAME" value="Day10" />
+      <option name="MAIN_CLASS_NAME" value="Day10.JoltCalculatorTest" />
+      <option name="METHOD_NAME" value="testDifferenceMapHasRightvalues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoltCalculatorTest.testDifferenceMapHasRightvaluesForTestData2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day10" />
+      <option name="MAIN_CLASS_NAME" value="Day10.JoltCalculatorTest" />
+      <option name="METHOD_NAME" value="testDifferenceMapHasRightvaluesForTestData2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.XmasCracker2Test.testValidSequence" />
-        <item itemvalue="JUnit.XmasCracker2Test" />
-        <item itemvalue="JUnit.XmasCracker2Test.testFindSequenceWithRealData" />
-        <item itemvalue="JUnit.XmasCracker2Test.testFindSequenceWithTestData" />
-        <item itemvalue="JUnit.XmasCracker2Test.testReassignmentOfValues" />
+        <item itemvalue="JUnit.JoltCalculatorTest.testCalculationForPart1withRealData" />
+        <item itemvalue="JUnit.JoltCalculatorTest.testCalculationForPart1withTestData" />
+        <item itemvalue="JUnit.JoltCalculatorTest.testDifferenceMapHasRightvaluesForTestData2" />
+        <item itemvalue="JUnit.JoltCalculatorTest.testDifferenceMapHasRightvalues" />
+        <item itemvalue="JUnit.JoltCalculatorTest.getSortedInput" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609015778213</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated incorrect test assertion">
+      <created>1609015832258</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609015832259</updated>
+    </task>
+    <task id="LOCAL-00018" summary="minor edits">
+      <created>1609015988213</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609015988213</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -308,7 +327,9 @@
     <MESSAGE value="completed day9 part 1" />
     <MESSAGE value="started day9 part2" />
     <MESSAGE value="Completed day 9 part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed day 9 part 2" />
+    <MESSAGE value="updated incorrect test assertion" />
+    <MESSAGE value="minor edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor edits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
