@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day12/Day12Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day12/Day12TestInput2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Day12/Navigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day12/Navigator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Day12/NavigatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day12/NavigatorTest.java" afterDir="false" />
@@ -49,7 +49,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Day9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Day12" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -57,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day12" />
       <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day9" />
       <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day6" />
       <recent name="C:\Users\cquil\Documents\code\Advent_Of_Code_2020\src\main\java\Day4" />
@@ -74,6 +75,9 @@
       <recent name="Day10" />
       <recent name="Day9" />
       <recent name="Day8" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Day12" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.NavigatorTest.checkPart1WithRealData">
@@ -125,22 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigatorTest.checkShipOrientationClockWise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day12" />
-      <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
-      <option name="METHOD_NAME" value="checkShipOrientationClockWise" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NavigatorTest.checkSteerShip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
@@ -157,13 +145,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NavigatorTest.testExceptionThrown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day12" />
+      <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
+      <option name="METHOD_NAME" value="testExceptionThrown" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NavigatorTest.checkPart1WithRealData" />
+        <item itemvalue="JUnit.NavigatorTest.testExceptionThrown" />
         <item itemvalue="JUnit.NavigatorTest.checkPart1WithTestData" />
         <item itemvalue="JUnit.NavigatorTest.checkSteerShip" />
         <item itemvalue="JUnit.NavigatorTest.checkShipOrientationAntiClock" />
-        <item itemvalue="JUnit.NavigatorTest.checkShipOrientationClockWise" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609348012716</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="completed day2 part 1">
+      <created>1609352611362</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609352611362</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -351,7 +362,8 @@
     <MESSAGE value="completed day 10 part 1 (part 2 pending later)" />
     <MESSAGE value="started say 11 part 1" />
     <MESSAGE value="started day 12 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="started day 12 part 1" />
+    <MESSAGE value="completed day2 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed day2 part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

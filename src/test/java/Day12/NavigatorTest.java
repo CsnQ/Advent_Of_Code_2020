@@ -90,8 +90,16 @@ public class NavigatorTest {
     public void checkPart1WithRealData() {
         List<String> input = ReadFile.readLinesFromFile("src/main/java/Day12/Day12Input.txt");
         Navigator nav = new Navigator(input);
-        int expectedResult = 25;
-        System.out.println(nav.calculatePart1Answer());
+        int expectedResult = 1010;
+        assertEquals(expectedResult, nav.calculatePart1Answer());
     }
+
+    @Test(expected = IllegalStateException.class)
+    public void testExceptionThrown() {
+        List<String> input = ReadFile.readLinesFromFile("src/main/java/Day12/Day12TestInput2.txt");
+        Navigator nav = new Navigator(input);
+
+    }
+
 
 }

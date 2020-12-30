@@ -78,7 +78,7 @@ public class Navigator {
         } else if (degrees == 270 && direction == 'R') {
             clockwiseOrAntiClockwise =-1;
         }else{
-            System.out.println("different value");
+            throw new IllegalStateException("Uunexpected Number Of Degrees " + degrees);
         }
 
         switch (clockwiseOrAntiClockwise) {
