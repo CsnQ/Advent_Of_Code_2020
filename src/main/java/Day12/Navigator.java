@@ -15,6 +15,7 @@ public class Navigator {
         this.shipOrientation = 'E';
         this.navCalculator = new HashMap<>();
         initialiseShipCalculator();
+        steerShip();
     }
 
     private void initialiseShipCalculator() {
@@ -32,6 +33,7 @@ public class Navigator {
         for (int i = 0; i < rawInput.size(); i++) {
             char direction = rawInput.get(i).charAt(0);
             int moves = Integer.parseInt(rawInput.get(i).substring(1));
+
             switch (direction) {
                 case 'F':
                     navCalculator.put(shipOrientation, navCalculator.get(shipOrientation) + moves);
@@ -51,6 +53,9 @@ public class Navigator {
                 case 'R':
                     rotateShip('R', moves);
                     break;
+                case 'L':
+                    rotateShip('L', moves);
+                    break;
             }
         }
     }
@@ -68,6 +73,12 @@ public class Navigator {
             clockwiseOrAntiClockwise = -1;
         } else if (degrees == 180 && direction == 'L') {
             clockwiseOrAntiClockwise = 2;
+        } else if (degrees == 270 && direction == 'L') {
+            clockwiseOrAntiClockwise = 1;
+        } else if (degrees == 270 && direction == 'R') {
+            clockwiseOrAntiClockwise =-1;
+        }else{
+            System.out.println("different value");
         }
 
         switch (clockwiseOrAntiClockwise) {
@@ -126,4 +137,22 @@ public class Navigator {
     public char getShipOrientation() {
         return shipOrientation;
     }
+
+    public int calculatePart1Answer() {
+        System.out.println(navCalculator);
+
+        int north = navCalculator.get('N');
+        int south = navCalculator.get('S');
+        int east = navCalculator.get('E');
+        int west = navCalculator.get('W');
+
+        int calc1 = Math.abs(north - south);
+        int calc2 = Math.abs(east - west);
+
+        System.out.println("north/south calc: " + calc1);
+        System.out.println("east/west calc: " + calc2);
+
+        return calc1 + calc2;
+    }
+
 }

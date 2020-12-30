@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="started say 11 part 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day12/Day12TestInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day12/Navigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/NavigatorTest.java" afterDir="false" />
+    <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day12/Day12Input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day11/SeatMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day11/SeatMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day11/SeatMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day11/SeatMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day12/Navigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day12/Navigator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day12/NavigatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day12/NavigatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +76,8 @@
       <recent name="Day8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NavigatorTest.checkShipOrientationAntiClock">
-    <configuration name="NavigatorTest.checkShipOrientation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NavigatorTest.checkPart1WithRealData">
+    <configuration name="NavigatorTest.checkPart1WithRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
@@ -89,7 +87,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day12" />
       <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
-      <option name="METHOD_NAME" value="checkShipOrientation" />
+      <option name="METHOD_NAME" value="checkPart1WithRealData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigatorTest.checkPart1WithTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent_Of_Code_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day12" />
+      <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
+      <option name="METHOD_NAME" value="checkPart1WithTestData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigatorTest.getProcessedDirections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigatorTest.checkSteerShip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
@@ -137,23 +151,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day12" />
       <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
-      <option name="METHOD_NAME" value="getProcessedDirections" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NavigatorTest.testInitialiseShipCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent_Of_Code_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day12" />
-      <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
-      <option name="METHOD_NAME" value="testInitialiseShipCalculator" />
+      <option name="METHOD_NAME" value="checkSteerShip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NavigatorTest.checkPart1WithRealData" />
+        <item itemvalue="JUnit.NavigatorTest.checkPart1WithTestData" />
+        <item itemvalue="JUnit.NavigatorTest.checkSteerShip" />
         <item itemvalue="JUnit.NavigatorTest.checkShipOrientationAntiClock" />
         <item itemvalue="JUnit.NavigatorTest.checkShipOrientationClockWise" />
-        <item itemvalue="JUnit.NavigatorTest.checkShipOrientation" />
-        <item itemvalue="JUnit.NavigatorTest.testInitialiseShipCalculator" />
-        <item itemvalue="JUnit.NavigatorTest.getProcessedDirections" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609092753310</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="started day 12 part 1">
+      <created>1609348012716</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609348012716</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -345,7 +350,8 @@
     <MESSAGE value="minor edits" />
     <MESSAGE value="completed day 10 part 1 (part 2 pending later)" />
     <MESSAGE value="started say 11 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="started say 11 part 1" />
+    <MESSAGE value="started day 12 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="started day 12 part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
