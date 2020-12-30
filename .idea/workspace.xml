@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day11/Day11TestInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day11/SeatMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day11/SeatMapperTest.java" afterDir="false" />
+    <list default="true" id="d651ac41-46e4-435a-9533-98cf15fbca09" name="Default Changelist" comment="started say 11 part 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day12/Day12TestInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day12/Navigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/NavigatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day11/SeatMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day11/SeatMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day11/SeatMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day11/SeatMapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,89 +71,89 @@
       <recent name="Day4" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Day12" />
       <recent name="Day11" />
       <recent name="Day10" />
       <recent name="Day9" />
       <recent name="Day8" />
-      <recent name="Day7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SeatMapperTest.getRawInput">
-    <configuration name="JoltCalculatorTest.testCalculationForPart1withRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NavigatorTest.checkShipOrientationAntiClock">
+    <configuration name="NavigatorTest.checkShipOrientation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day10" />
-      <option name="MAIN_CLASS_NAME" value="Day10.JoltCalculatorTest" />
-      <option name="METHOD_NAME" value="testCalculationForPart1withRealData" />
+      <option name="PACKAGE_NAME" value="Day12" />
+      <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
+      <option name="METHOD_NAME" value="checkShipOrientation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoltCalculatorTest.testCalculationForPart1withTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigatorTest.checkShipOrientationAntiClock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day10" />
-      <option name="MAIN_CLASS_NAME" value="Day10.JoltCalculatorTest" />
-      <option name="METHOD_NAME" value="testCalculationForPart1withTestData" />
+      <option name="PACKAGE_NAME" value="Day12" />
+      <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
+      <option name="METHOD_NAME" value="checkShipOrientationAntiClock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoltCalculatorTest.testDifferenceMapHasRightvalues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigatorTest.checkShipOrientationClockWise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day10" />
-      <option name="MAIN_CLASS_NAME" value="Day10.JoltCalculatorTest" />
-      <option name="METHOD_NAME" value="testDifferenceMapHasRightvalues" />
+      <option name="PACKAGE_NAME" value="Day12" />
+      <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
+      <option name="METHOD_NAME" value="checkShipOrientationClockWise" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoltCalculatorTest.testDifferenceMapHasRightvaluesForTestData2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigatorTest.getProcessedDirections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day10" />
-      <option name="MAIN_CLASS_NAME" value="Day10.JoltCalculatorTest" />
-      <option name="METHOD_NAME" value="testDifferenceMapHasRightvaluesForTestData2" />
+      <option name="PACKAGE_NAME" value="Day12" />
+      <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
+      <option name="METHOD_NAME" value="getProcessedDirections" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeatMapperTest.getRawInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigatorTest.testInitialiseShipCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent_Of_Code_2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day11" />
-      <option name="MAIN_CLASS_NAME" value="Day11.SeatMapperTest" />
-      <option name="METHOD_NAME" value="getRawInput" />
+      <option name="PACKAGE_NAME" value="Day12" />
+      <option name="MAIN_CLASS_NAME" value="Day12.NavigatorTest" />
+      <option name="METHOD_NAME" value="testInitialiseShipCalculator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SeatMapperTest.getRawInput" />
-        <item itemvalue="JUnit.JoltCalculatorTest.testCalculationForPart1withRealData" />
-        <item itemvalue="JUnit.JoltCalculatorTest.testCalculationForPart1withTestData" />
-        <item itemvalue="JUnit.JoltCalculatorTest.testDifferenceMapHasRightvaluesForTestData2" />
-        <item itemvalue="JUnit.JoltCalculatorTest.testDifferenceMapHasRightvalues" />
+        <item itemvalue="JUnit.NavigatorTest.checkShipOrientationAntiClock" />
+        <item itemvalue="JUnit.NavigatorTest.checkShipOrientationClockWise" />
+        <item itemvalue="JUnit.NavigatorTest.checkShipOrientation" />
+        <item itemvalue="JUnit.NavigatorTest.testInitialiseShipCalculator" />
+        <item itemvalue="JUnit.NavigatorTest.getProcessedDirections" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609091334069</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="started say 11 part 1">
+      <created>1609092753310</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609092753310</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -335,7 +344,8 @@
     <MESSAGE value="updated incorrect test assertion" />
     <MESSAGE value="minor edits" />
     <MESSAGE value="completed day 10 part 1 (part 2 pending later)" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed day 10 part 1 (part 2 pending later)" />
+    <MESSAGE value="started say 11 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="started say 11 part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

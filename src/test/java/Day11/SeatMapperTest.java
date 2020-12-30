@@ -14,7 +14,14 @@ public class SeatMapperTest {
         List<String> input = ReadFile.readLinesFromFile("src/main/java/Day11/Day11TestInput.txt");
         String expected1 = "L.LL.LL.LL";
         String expected2 = "LLLLLLL.LL";
-        assertEquals(expected1,input.get(0));
-        assertEquals(expected2,input.get(1));
+
+        SeatMapper seat = new SeatMapper(input);
+        List<String> result = seat.getInput();
+        assertEquals(expected1,result.get(0));
+        assertEquals(expected2,result.get(1));
     }
+
+
+
+
 }
