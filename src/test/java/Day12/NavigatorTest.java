@@ -11,15 +11,6 @@ import static org.junit.Assert.*;
 public class NavigatorTest {
 
     @Test
-    public void testInitialiseShipCalculator() {
-        List<String> input = ReadFile.readLinesFromFile("src/main/java/Day12/Day12TestInput.txt");
-        Navigator nav = new Navigator(input);
-        HashMap<Character, Integer> result = nav.getNavCalculator();
-        int north = result.get('N');
-        assertEquals(0, north);
-    }
-
-    @Test
     public void checkShipOrientationClockWise() {
         List<String> input = ReadFile.readLinesFromFile("src/main/java/Day12/Day12TestInput.txt");
         Navigator nav = new Navigator(input);
